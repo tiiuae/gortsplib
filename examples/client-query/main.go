@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
-	"github.com/bluenviron/gortsplib/v4"
-	"github.com/bluenviron/gortsplib/v4/pkg/url"
+	"github.com/tiiuae/gortsplib/v4"
+	"github.com/tiiuae/gortsplib/v4/pkg/url"
 )
 
 // This example shows how to

@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/bluenviron/gortsplib/v4/pkg/base"
+	"github.com/tiiuae/gortsplib/v4/pkg/base"
 )
 
 func stringPtr(v string) *string {

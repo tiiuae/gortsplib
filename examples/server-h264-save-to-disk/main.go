@@ -7,11 +7,11 @@ import (
 
 	"github.com/pion/rtp"
 
-	"github.com/bluenviron/gortsplib/v4"
-	"github.com/bluenviron/gortsplib/v4/pkg/base"
-	"github.com/bluenviron/gortsplib/v4/pkg/description"
-	"github.com/bluenviron/gortsplib/v4/pkg/format"
-	"github.com/bluenviron/gortsplib/v4/pkg/format/rtph264"
+	"github.com/tiiuae/gortsplib/v4"
+	"github.com/tiiuae/gortsplib/v4/pkg/base"
+	"github.com/tiiuae/gortsplib/v4/pkg/description"
+	"github.com/tiiuae/gortsplib/v4/pkg/format"
+	"github.com/tiiuae/gortsplib/v4/pkg/format/rtph264"
 )
 
 // This example shows how to

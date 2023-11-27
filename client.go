@@ -1,7 +1,7 @@
 /*
 Package gortsplib is a RTSP 1.0 library for the Go programming language.
 
-Examples are available at https://github.com/bluenviron/gortsplib/tree/main/examples
+Examples are available at https://github.com/tiiuae/gortsplib/tree/main/examples
 */
 package gortsplib
 
@@ -19,17 +19,17 @@ import (
 	"github.com/pion/rtcp"
 	"github.com/pion/rtp"
 
-	"github.com/bluenviron/gortsplib/v4/pkg/auth"
-	"github.com/bluenviron/gortsplib/v4/pkg/base"
-	"github.com/bluenviron/gortsplib/v4/pkg/bytecounter"
-	"github.com/bluenviron/gortsplib/v4/pkg/conn"
-	"github.com/bluenviron/gortsplib/v4/pkg/description"
-	"github.com/bluenviron/gortsplib/v4/pkg/format"
-	"github.com/bluenviron/gortsplib/v4/pkg/headers"
-	"github.com/bluenviron/gortsplib/v4/pkg/liberrors"
-	"github.com/bluenviron/gortsplib/v4/pkg/rtptime"
-	"github.com/bluenviron/gortsplib/v4/pkg/sdp"
-	"github.com/bluenviron/gortsplib/v4/pkg/url"
+	"github.com/tiiuae/gortsplib/v4/pkg/auth"
+	"github.com/tiiuae/gortsplib/v4/pkg/base"
+	"github.com/tiiuae/gortsplib/v4/pkg/bytecounter"
+	"github.com/tiiuae/gortsplib/v4/pkg/conn"
+	"github.com/tiiuae/gortsplib/v4/pkg/description"
+	"github.com/tiiuae/gortsplib/v4/pkg/format"
+	"github.com/tiiuae/gortsplib/v4/pkg/headers"
+	"github.com/tiiuae/gortsplib/v4/pkg/liberrors"
+	"github.com/tiiuae/gortsplib/v4/pkg/rtptime"
+	"github.com/tiiuae/gortsplib/v4/pkg/sdp"
+	"github.com/tiiuae/gortsplib/v4/pkg/url"
 )
 
 // convert an URL into an address, in particular:
