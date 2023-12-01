@@ -259,7 +259,8 @@ func (cm *clientMedia) readRTPUDPPlay(payload []byte) {
 
 	atomic.AddUint64(cm.c.BytesReceived, uint64(plen))
 
-	if plen == (udpMaxPayloadSize + 1) {
+	// Allow jumbo size (>1500 MTU) RPT packet
+	if plen > udpMaxBufferSize {
 		cm.c.OnDecodeError(liberrors.ErrClientRTPPacketTooBigUDP{})
 		return
 	}

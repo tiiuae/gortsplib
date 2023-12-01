@@ -145,7 +145,7 @@ func (u *clientUDPListener) run() {
 	defer close(u.done)
 
 	for {
-		buf := make([]byte, udpMaxPayloadSize+1)
+		buf := make([]byte, udpMaxBufferSize)
 		n, addr, err := u.pc.ReadFrom(buf)
 		if err != nil {
 			return

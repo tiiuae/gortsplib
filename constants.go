@@ -6,4 +6,7 @@ const (
 
 	// 1500 (UDP MTU) - 20 (IP header) - 8 (UDP header)
 	udpMaxPayloadSize = 1472
+
+	// Max UDP packet buffer size
+	udpMaxBufferSize = 8200
 )
